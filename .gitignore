@@ -1,10 +1,27 @@
-# Python-generated files
+# Python bytecode and cache
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
+*.pyo
 
-# Virtual environments
-.venv
+# Virtual environments (uv / venv / conda envs created inside project)
+.venv/
+env/
+venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# VS Code workspace settings
+.vscode/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# uv build artifacts (if any appear)
+.dist/
