@@ -1,7 +1,22 @@
 [project]
 name = "dissertation-msc"
 version = "0.1.0"
-description = "Add your description here"
+description = "MSc dissertation experiments on GPT-style language models, KV cache, and training from scratch in PyTorch."
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "numpy",
+    "matplotlib",
+    "tqdm",
+    "requests",
+    "transformers",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+    "jupyterlab",
+    "ruff",
+    "black",
+]
